@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <!-- Instruction Page -->
+    <div id="instruction-container">
+        <h1 style="color:blue; font-size: 45px;font-weight: bold;font-family: 'Times New Roman', Times, serif;">Welcome to the Quiz</h1>
+        <h2 style="color: darkviolet;font-size: 25px;font-family: Georgia, 'Times New Roman', Times, serif;">Instructions:</h2>
+        <p style="color: black;font-size: medium;font-family: 'Courier New', Courier, monospace;">
+            <ul>
+                <li>You will have a total of 30 questions in this quiz.</li>
+                <li>For each correct answer, you will be awarded with 1 point.</li>
+                <li>There is no negative marking.</li>
+                <li>To start the quiz, click on the "Start Quiz" button.</li>
+            </ul>
+        </p>
+        <button id="start-quiz-btn" class="btn" onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Page -->
+    <div class="container" id="quiz-container" style="display: none;">
+        <div class="question" id="question"></div>
+        <div id="timer"></div>
+        <ul class="options" id="options"></ul>
+        <button class="btn" id="next-btn">Next Question</button>
+        <div class="feedback" id="feedback"></div>
+        <div class="score" id="score">Score: 0</div>
+    </div>
+
+    <!-- Question Numbers -->
+    <div id="question-numbers-container" style="display: none;">
+        <h1 id="quebox-preview">PREVIEW</h1>
+        <div id="question-numbers"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
