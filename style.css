@@ -1,0 +1,182 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Center the instruction page */
+#instruction-container {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    max-width: 600px; /* Restrict the width */
+}
+
+/* Center the quiz container and make it inline with question number boxes */
+#quiz-container {
+    max-width: 600px;
+    width: 90%;
+    background-color: coral;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block; /* Keeps it centered */
+    vertical-align: middle;
+    margin-right: 20px; /* Space between quiz container and question boxes */
+}
+/* Grid layout for question number boxes */
+#question-numbers {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columns */
+    grid-template-rows: repeat(5, 1fr); /* 5 rows */
+    gap: 10px; /* Medium gap between boxes */
+    margin-top: 20px;
+}
+
+/* Individual question box styles */
+.question-box {
+    width: 50px; /* Increase the width of the boxes */
+    height: 50px; /* Increase the height of the boxes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 1.2rem; /* Adjust font size for larger boxes */
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: white; /* Default background color for skipped questions */
+    margin: 0; /* Ensure no extra margin */
+}
+
+/* Background colors for question statuses */
+.question-box.correct {
+    background-color: green;
+}
+
+.question-box.incorrect {
+    background-color: red;
+}
+
+.question-box.skipped {
+    background-color: white;
+}
+#quebox-preview{
+    color: #007BFF;
+}
+
+/* Styling for the question text */
+.question {
+    font-style: normal;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(29, 5, 5);
+}
+
+/* Options list styling */
+.options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.options li {
+    margin: 10px 0;
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: left;
+}
+
+.options button:hover {
+    background-color: #0056b3;
+}
+
+.options button.correct {
+    background-color: #28a745;
+    color: white;
+}
+
+.options button.incorrect {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Feedback and score styling */
+.feedback {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #555555;
+}
+
+.score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333333;
+}
+#timer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    background-color: white;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+/* Button styling */
+.btn {
+    background-color: rgb(7, 90, 7);
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #c964d6;
+}
