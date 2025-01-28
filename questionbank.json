@@ -1,0 +1,152 @@
+[
+    {
+        "question": "Who is the CEO of CODTECH IT SOLUTIONS?",
+        "options": ["Arvind Krishna", "Leena Nair" ,"Harish Neelam", "None of the above"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Venus", "Jupiter"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the value of Pi (π) up to two decimal places?",
+        "options": ["3.14", "3.12", "3.16", "3.15"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Who developed the theory of relativity?",
+        "options": ["Isaac Newton", "Albert Einstein", "Nikola Tesla", "Galileo Galilei"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the derivative of sin(x)?",
+        "options": ["cos(x)", "sin(x)", "tan(x)", "-cos(x)"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the largest prime number less than 100?",
+        "options": ["97", "89", "83", "79"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which data structure uses the LIFO principle?",
+        "options": ["Queue", "Stack", "Array", "Linked List"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the square root of 144?",
+        "options": ["12", "14", "16", "10"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is a programming language?",
+        "options": ["HTML", "CSS", "JavaScript", "SQL"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "options": ["H2O", "CO2", "O2", "N2"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Who invented the first computer?",
+        "options": ["Charles Babbage", "Alan Turing", "John von Neumann", "Bill Gates"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the smallest prime number?",
+        "options": ["1", "2", "3", "5"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the speed of light in a vacuum (in m/s)?",
+        "options": ["3 x 10^8", "3 x 10^6", "3 x 10^9", "3 x 10^7"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does HTML stand for?",
+        "options": ["HyperText Markup Language", "Hyper Transfer Markup Language", "HyperText Machine Language", "None of the above"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which programming language was developed by James Gosling?",
+        "options": ["Python", "C++", "Java", "Ruby"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the integral of x with respect to x?",
+        "options": ["x^2/2", "x^3/3", "x^2", "x"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which element is represented by the symbol 'O'?",
+        "options": ["Oxygen", "Osmium", "Ozone", "Oganesson"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the term for a variable that can hold multiple values in programming?",
+        "options": ["Array", "List", "Function", "Integer"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the first prime number after 10?",
+        "options": ["11", "13", "17", "19"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "In computer science, what does CPU stand for?",
+        "options": ["Central Processing Unit", "Central Program Unit", "Central Performance Unit", "Central Parallel Unit"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the derivative of x^2?",
+        "options": ["2x", "x", "x^3", "x^2"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does CSS stand for?",
+        "options": ["Cascading Style Sheets", "Cascading Simple Sheets", "Computer Style Sheets", "Creative Style Sheets"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the main function of the mitochondria in a cell?",
+        "options": ["Energy production", "Protein synthesis", "Gene expression", "Cell division"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is not a database management system?",
+        "options": ["MySQL", "PostgreSQL", "MongoDB", "Notepad"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the sum of the first 100 positive integers?",
+        "options": ["5050", "5000", "5100", "5500"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is used for version control in software development?",
+        "options": ["Git", "GitHub", "GitLab", "All of the above"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the formula to calculate the area of a circle?",
+        "options": ["πr^2", "2πr", "πd", "r^2"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the square of 15?",
+        "options": ["225", "2250", "150", "30"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the symbol for the element Sodium?",
+        "options": ["Na", "S", "N", "So"],
+        "correctAnswer": 0
+    }
+]
